@@ -14,22 +14,16 @@ repositories {
 }
 
 dependencies {
-	//implementation("org.springframework.boot:spring-boot-h2console")
-	//implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	//implementation("org.springframework.boot:spring-boot-starter-flyway")
 	//implementation("org.springframework.boot:spring-boot-starter-mail")
 	//implementation("org.springframework.boot:spring-boot-starter-security")
 	//implementation("org.springframework.boot:spring-boot-starter-security-oauth2-resource-server")
 	//implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
+	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	//implementation("com.okta.spring:okta-spring-boot-starter:3.1.0")
-	//implementation("org.flywaydb:flyway-database-postgresql")
 	compileOnly("org.projectlombok:lombok")
-	//runtimeOnly("com.h2database:h2")
-	//runtimeOnly("org.postgresql:postgresql")
 	annotationProcessor("org.projectlombok:lombok")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
-	//testImplementation("org.springframework.boot:spring-boot-starter-data-jpa-test")
 	//testImplementation("org.springframework.boot:spring-boot-starter-flyway-test")
 	//testImplementation("org.springframework.boot:spring-boot-starter-mail-test")
 	//testImplementation("org.springframework.boot:spring-boot-starter-security-oauth2-resource-server-test")
